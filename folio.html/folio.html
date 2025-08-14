@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Stephen Akugo Jaoko - ICT Specialist, Web Developer, Cybersecurity Enthusiast, and Database Administrator." />
+    <title>Stephen Akugo Jaoko | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        .hero img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        header h1 { font-size: 2.5rem; font-weight: 700; }
+        header p { font-size: 1.2rem; }
+
+        /* Sticky Floating Social Icons */
+        .social-floating {
+            position: fixed;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+            z-index: 1000;
+        }
+        .social-floating a {
+            color: white;
+            background: #007bff;
+            padding: 0.7rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s, transform 0.3s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .social-floating a:hover {
+            background: #00c6ff;
+            transform: scale(1.1);
+        }
+
+        section { padding: 3rem 1rem; max-width: 1100px; margin: auto; }
+        h2 { text-align: center; margin-bottom: 2rem; font-size: 2rem; color: #007bff; }
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .contact {
+            background: #007bff;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 10px;
+        }
+        a { color: #00c6ff; text-decoration: none; }
+        .social-links {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .social-links a {
+            color: white;
+            background: #333;
+            padding: 0.6rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+        .social-links a:hover { background: #00c6ff; }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #222;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sticky Floating Social Icons -->
+    <div class="social-floating">
+        <a href="https://wa.me/254796431147" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://twitter.com/stevogeneral" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/in/YOURUSERNAME" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/YOURUSERNAME" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+
+    <header>
+        <div class="hero">
+            <img src="imaa.jpg" alt="Stephen Akugo Jaoko">
+            <h1>Stephen Akugo</h1>
+            <p>ICT Specialist | Web Developer | Cybersecurity Enthusiast | Database Administrator</p>        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated ICT professional with a Bachelor’s Degree in Information Science from Rongo University.
+            I have developed solid skills in web development, networking, database management, and cybersecurity. 
+            I believe technology should be intuitive, secure, and impactful — and that’s the mindset I bring to every project.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">Web Development: HTML5, CSS3, JavaScript, PHP, WordPress</div>
+            <div class="card">Networking: LAN/WAN setup, configuration, troubleshooting</div>
+            <div class="card">Cybersecurity: Threat detection, system hardening</div>
+            <div class="card">Database: MySQL, PostgreSQL, design & optimization</div>
+            <div class="card">Other Tools: Git, Linux systems, cloud services</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Responsive E-commerce Website</h3>
+                <p>Developed a fully functional online store with integrated payment systems.</p>
+            </div>
+            <div class="card">
+                <h3>School Management System</h3>
+                <p>Built a database-driven system for managing student records and grading.</p>
+            </div>
+            <div class="card">
+                <h3>Cybersecurity Audit</h3>
+                <p>Performed vulnerability assessment and implemented advanced security measures.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <div class="contact">
+            <p>Email: <a href="mailto:sakugo12@gmail.com">sakugo12@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254796431147">+254 796 431 147</a></p>
+            <p>Location: Migori, Kenya</p>
+            <!-- Social Media Links in Contact -->
+            <div class="social-links">
+                <a href="https://twitter.com/YOURUSERNAME" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/YOURUSERNAME" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/YOURUSERNAME" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/254796431147" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Stephen Akugo Jaoko. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
